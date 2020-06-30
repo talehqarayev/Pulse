@@ -1,0 +1,75 @@
+.promo
+	min-height: 650px
+	background: url("../img/bg1.png") center center / cover no-repeat
+	padding: 20px 0 90px 0
+	.header
+		display: flex
+		align-items: center
+		justify-content: space-between
+		&_official
+			color: white
+			text-align: center
+			font-size: 12px
+			span
+				display: block
+				font-size: 18px
+				font-weight: 600
+		&_contacts
+			width: 160px
+			display: flex
+			flex-direction: column
+			align-items: flex-end
+		&_phone
+			color: white
+			font-weight: 700
+			font-size: 18px
+			text-transform: uppercase
+		.button
+			@include button
+
+	&_wrapper
+		display: flex
+		flex-direction: column
+		align-items: flex-end
+		margin-top: 90px
+	&_header
+		color: white
+		font-size: 42px
+		font-weight: 700
+		text-transform: uppercase
+	&_subheader
+		color: white
+		font-size: 24px
+		text-transform: uppercase
+		font-weight: 500
+	&_icons
+		display: flex
+		justify-content: space-between
+		align-items: center
+		width: 425px
+		margin-top: 65px
+	&_icon
+		width: 108px
+		color: white
+		text-align: center
+		font-size: 12px
+		img
+			display: block
+			margin: 0 auto
+			margin-bottom: 20px
+
+	.button_main
+		@include button
+		width: 300px
+		height: 50px
+		text-transform: uppercase
+		font-size: 16px
+		margin-top: 70px
+	&_link
+		color: white
+		font-size: 16px
+		margin-top: 20px
+		a
+			color: white
+			text-transform: uppercase
+			font-weight: 500
