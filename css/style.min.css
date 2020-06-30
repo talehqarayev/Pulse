@@ -1,1 +1,908 @@
-*{font-family:"Museo Sans Cyrl",sans-serif}.container{max-width:960px;margin:0 auto}.promo{min-height:650px;background:url(../img/bg1.png) center center/cover no-repeat;padding:20px 0 90px 0}.promo .header{display:flex;align-items:center;justify-content:space-between}.promo .header_official{color:#fff;text-align:center;font-size:12px}.promo .header_official span{display:block;font-size:18px;font-weight:600}.promo .header_contacts{width:160px;display:flex;flex-direction:column;align-items:flex-end}.promo .header_phone{color:#fff;font-weight:700;font-size:18px;text-transform:uppercase}.promo .header .button{color:#fff;text-transform:uppercase;width:150px;height:30px;font-size:12px;background-color:#c70101;border:none;border-radius:5px;transition:all .5s}.promo .header .button:hover{background-color:red}.promo_wrapper{display:flex;flex-direction:column;align-items:flex-end;margin-top:90px}.promo_header{color:#fff;font-size:42px;font-weight:700;text-transform:uppercase}.promo_subheader{color:#fff;font-size:24px;text-transform:uppercase;font-weight:500}.promo_icons{display:flex;justify-content:space-between;align-items:center;width:425px;margin-top:65px}.promo_icon{width:108px;color:#fff;text-align:center;font-size:12px}.promo_icon img{display:block;margin:0 auto;margin-bottom:20px}.promo .button_main{color:#fff;text-transform:uppercase;width:150px;height:30px;font-size:12px;background-color:#c70101;border:none;border-radius:5px;transition:all .5s;width:300px;height:50px;text-transform:uppercase;font-size:16px;margin-top:70px}.promo .button_main:hover{background-color:red}.promo_link{color:#fff;font-size:16px;margin-top:20px}.promo_link a{color:#fff;text-transform:uppercase;font-weight:500}.advantage{min-height:475px;background-color:#f6f6f6;padding:70px 0 80px 0}.advantage_header{text-align:center;font-size:30px}.advantage_icons{display:flex;margin-top:75px;justify-content:space-between;align-items:flex-start}.advantage_icon{width:250px;text-align:center;font-size:14px}.advantage_icon:nth-child(3){width:225px}.advantage span{display:block;margin-top:20px;margin-bottom:20px;font-weight:700}.consultation{min-height:680px;padding-top:90px;background:url(../img/bg2.png) center center/cover no-repeat}.consultation_title{color:#fff;font-size:36px;text-transform:uppercase}.consultation_descrb{color:#fff;font-size:20px;font-weight:500;margin-top:85px}.consultation_form{margin-top:40px;display:flex;flex-direction:column;width:300px}.consultation_form input{border:none;height:50px;margin-bottom:15px;border-radius:5px;padding:0 20px;font-size:14px}.consultation_form input:nth-child(3){margin-bottom:20px}.consultation_form .button{color:#fff;text-transform:uppercase;width:150px;height:30px;font-size:12px;background-color:#c70101;border:none;border-radius:5px;transition:all .5s;width:300px;height:53px;text-transform:uppercase;font-size:16px}.consultation_form .button:hover{background-color:red}.slider{display:none;padding:95px 0}.slider_carousel{width:750px;margin:0 auto;position:relative}.slider_carousel img{display:block;margin:0 auto}.slider .slick-prev{position:absolute;left:-66px;top:50%;transform:translateY(-50%);border:none;background-color:#fff}.slider .slick-prev img{width:30px;height:45px}.slider .slick-next{position:absolute;top:50%;right:-66px;transform:translateY(-50%);border:none;background-color:#fff}.slider .slick-next img{width:30px;height:45px}.catalog{height:auto;padding-top:100px}.catalog_header{font-size:30px;text-align:center;text-transform:uppercase;font-weight:700}.catalog_tabs{list-style-type:none;padding-left:0;margin-bottom:0;margin-top:70px;display:flex;justify-content:center;text-align:center}.catalog_tab{width:220px;height:50px;display:flex;justify-content:center;align-items:center;margin:0 5px;border:2px solid #d3d3d3;color:grey;font-size:18px;text-transform:uppercase;transform:skewX(-25deg);cursor:pointer;transition:all .5s ease}.catalog_tab div{transform:skewX(25deg)}.catalog_tab:hover{background-color:#c70101;color:#fff;border:none;box-shadow:3px 3px 15px #c70101}.catalog_tab_active{background-color:#c70101;color:#fff}.catalog_content{margin-top:60px;display:flex;justify-content:center;flex-wrap:wrap;display:none}.catalog_content_active{display:flex}.catalog_item{width:300px;min-height:440px;border:2px solid #d3d3d3;padding:20px 20px 25px 20px;margin:0 10px 20px 10px}.catalog_item_img{display:block;margin:0 auto;max-width:100%;height:185px}.catalog_item_subheader{text-align:center;margin-top:25px;font-size:16px;font-weight:700}.catalog_item_descrb{text-align:center;margin-top:15px;font-size:14px;font-weight:400}.catalog_item_link{display:block;margin:15px;text-align:center;color:#c70101;font-size:14px;font-weight:550}.catalog_item_link:hover{color:#c70101;text-decoration:underline}.catalog_item_footer{display:flex;justify-content:space-between;align-items:center}.catalog_item_footer .prices_old{font-size:14px;text-decoration:line-through}.catalog_item_footer .prices_new{font-size:20px;font-weight:600}.catalog_item_footer .btn{color:#fff;text-transform:uppercase;width:150px;height:30px;font-size:12px;background-color:#c70101;border:none;border-radius:5px;transition:all .5s;width:130px;height:40px;font-size:14px}.catalog_item_footer .btn:hover{background-color:red}.comment{min-height:950px;padding-top:80px;padding-bottom:65px}.comment_header{font-size:30px;text-align:center;text-transform:uppercase;font-weight:700}.comment_content{display:flex;align-items:center;margin-top:60px}.comment_content_img{margin-right:60px;width:185px;height:185px}.comment_content_descrb{font-size:14px}.comment_content_descrb span{font-size:14px;color:grey}.comment_content_person{font-size:18px;font-weight:700}.comment_line{margin-top:50px;margin-bottom:0;border-bottom:none;opacity:.3}.footer{position:relative;height:630px}.footer_info{position:absolute;background-color:#c70101;top:0;left:50%;transform:translate(-50%);padding:50px 65px 60px 65px;text-align:center;color:#fff;font-weight:700}.footer_phone{color:#fff}.footer_phone:hover{color:#fff}.footer_social{display:flex;justify-content:center;margin-top:30px}.footer_social_item{display:flex;justify-content:center;margin:0 15px;transition:all .5s ease}.footer_social_item:hover{transform:rotate(360deg)}.overlay{display:none;width:100%;height:100%;position:fixed;top:0;background:rgba(0,0,0,.56);z-index:1}.overlay .modal{width:380px;min-height:400px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background-color:#f2f2f2;padding:38px 38px;z-index:2}.overlay .modal_mini{min-height:140px}.overlay .modal .consultation_form{margin-top:20px}.overlay .modal_header{font-size:18px;text-align:center;font-weight:700}.overlay .modal_subheader{font-size:14px;text-align:center;font-weight:500}.overlay .modal_close{position:absolute;top:0;right:-30px;font-size:40px;line-height:20px;color:#c70101;cursor:pointer}.overlay #consultation,.overlay #order,.overlay #thanks{display:none}@media (max-width:1200px){.promo .header{display:flex;align-items:center;justify-content:space-around}.promo_wrapper{display:flex;flex-direction:column;align-items:center}.advantage_icons{display:flex;justify-content:space-around}.consultation_title{font-size:32px}.consultation_descrb{margin-top:55px}}@media (max-width:992px){.promo .header{display:flex;align-items:center;justify-content:space-around}.promo .header_official{display:none}.promo_header{font-size:35px}.promo_subheader{font-size:20px}.advantage_icons{display:flex;justify-content:space-around;margin-top:60px}.advantage_icon{width:220px}.consultation_title{font-size:24px;text-align:center}.consultation_descrb{text-align:center;margin-top:35px}.consultation_form{display:flex;flex-direction:column;margin:40px auto}.comment_content{display:flex;align-items:center;margin-top:40px}.comment_content_img{margin-right:30px;margin-left:30px}.comment_content_descrb{width:65%}.footer_info{padding:40px 25px 30px 25px}.modal{min-height:380px}}@media (max-width:768px){.promo_logo{width:200px}.promo .header_phone{font-size:15px}.promo .header .button{width:125px;font-size:11px}.promo_icons{width:400px;margin-top:50px}.promo_wrapper{margin-top:50px}.promo_wrapper .button_main{width:220px;height:35px;margin-top:50px;font-size:14px}.promo_link{font-size:14px}.promo_header{font-size:27px}.promo_subheader{font-size:15px}.advantage_header{font-size:22px;text-align:center}.advantage_icons{display:flex;flex-direction:column;align-items:center;margin-top:30px}.advantage_icon{margin-top:20px}.advantage_icon img{width:55px}.advantage_icon span{margin-top:0;margin-bottom:10px}.advantage_icon p{margin-bottom:0}.consultation_title{display:none}.consultation_descrb{text-align:center;margin-top:25px}.consultation_form{display:flex;flex-direction:column;margin:30px auto;width:250px}.consultation_form input{height:40px}.consultation .button{width:250px;font-size:14px;height:43px}.catalog_header{font-size:22px}.catalog_tabs{margin-top:30px}.catalog_tab{width:160px;height:40px}.catalog_tab div{font-size:14px;font-weight:700}.catalog_content{margin-top:30px}.catalog_item{min-height:0;padding:10px 10px 10px 10px}.catalog_item_img{height:150px}.catalog_item_subheader{margin-top:15px}.catalog_item_link{margin:8px}.comment_header{font-size:22px}.comment_content{display:flex;flex-direction:column;align-items:center;justify-content:center;margin-top:30px}.comment_content_img{margin:0 auto}.comment_content_descrb{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:0 20px 0 20px;text-align:center}.comment_line{margin:20px 0 20px 0;border-bottom:none;opacity:.3}.modal .button{width:100%}}@media (max-width:576px){.promo{min-height:550px}.promo .header{display:flex;justify-content:center;align-items:center}.promo .header_contacts{display:flex;align-items:center;justify-content:center}.promo_logo{display:none}.promo_header{font-size:20px}.promo_subheader{font-size:13px}.promo_icons{width:300px}.promo_icon img{width:35px}.promo_icon span{font-size:11px}.promo .button{width:120px;height:38px;font-size:11px}.promo_link{font-size:11px}.promo_link a{font-size:12px}.advantage_header{font-size:20px}.advantage_icon{margin-top:10px}.advantage_icon img{width:45px}.advantage_icon p{font-size:12px}.consultation_title{display:none}.consultation_descrb{text-align:center;font-size:16px}.consultation_form{display:flex;flex-direction:column;margin:30px auto;width:100%}.consultation_form input{height:30px}.consultation .button{display:block;margin:0 auto;text-align:center;font-size:12px;height:43px}.catalog_tabs{display:flex;flex-direction:column;align-items:center;justify-content:center}.catalog_tab{margin:5px}.comment_content_descrb{width:100%}.footer_info{width:300px;height:210px;padding:25px 35px 30px 35px}.footer_info_phone{margin-top:15px}.overlay .modal{width:250px;min-height:260px;padding:15px 15px}.overlay .modal .consultation_form{margin-top:10px;margin-bottom:0}.overlay .modal .consultation_form input{padding:5px;margin-bottom:10px}.overlay .modal_header{font-size:14px}.overlay .modal_subheader{font-size:12px}.overlay .modal_close{position:absolute;right:-25px;top:0}.overlay .modal .button{height:43px;font-size:12px}}
+* {
+    font-family: "Museo Sans Cyrl", sans-serif
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto
+}
+
+.promo {
+    min-height: 650px;
+    background: url(../img/bg1.png) center center/cover no-repeat;
+    padding: 20px 0 90px 0
+}
+
+.promo .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.promo .header_official {
+    color: #fff;
+    text-align: center;
+    font-size: 12px
+}
+
+.promo .header_official span {
+    display: block;
+    font-size: 18px;
+    font-weight: 600
+}
+
+.promo .header_contacts {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+.promo .header_phone {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase
+}
+
+.promo .header .button {
+    color: #fff;
+    text-transform: uppercase;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #c70101;
+    border: none;
+    border-radius: 5px;
+    transition: all .5s
+}
+
+.promo .header .button:hover {
+    background-color: red
+}
+
+.promo_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 90px
+}
+
+.promo_header {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.promo_subheader {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.promo_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 425px;
+    margin-top: 65px
+}
+
+.promo_icon {
+    width: 108px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px
+}
+
+.promo_icon img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px
+}
+
+.promo .button_main {
+    color: #fff;
+    text-transform: uppercase;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #c70101;
+    border: none;
+    border-radius: 5px;
+    transition: all .5s;
+    width: 300px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 70px
+}
+
+.promo .button_main:hover {
+    background-color: red
+}
+
+.promo_link {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px
+}
+
+.promo_link a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.advantage {
+    min-height: 475px;
+    background-color: #f6f6f6;
+    padding: 70px 0 80px 0
+}
+
+.advantage_header {
+    text-align: center;
+    font-size: 30px
+}
+
+.advantage_icons {
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+.advantage_icon {
+    width: 250px;
+    text-align: center;
+    font-size: 14px
+}
+
+.advantage_icon:nth-child(3) {
+    width: 225px
+}
+
+.advantage span {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700
+}
+
+.consultation {
+    min-height: 680px;
+    padding-top: 90px;
+    background: url(../img/bg2.png) center center/cover no-repeat
+}
+
+.consultation_title {
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase
+}
+
+.consultation_descrb {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 85px
+}
+
+.consultation_form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 300px
+}
+
+.consultation_form input {
+    border: none;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 14px
+}
+
+.consultation_form input:nth-child(3) {
+    margin-bottom: 20px
+}
+
+.consultation_form .button {
+    color: #fff;
+    text-transform: uppercase;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #c70101;
+    border: none;
+    border-radius: 5px;
+    transition: all .5s;
+    width: 300px;
+    height: 53px;
+    text-transform: uppercase;
+    font-size: 16px
+}
+
+.consultation_form .button:hover {
+    background-color: red
+}
+
+.slider {
+    display: none;
+    padding: 95px 0
+}
+
+.slider_carousel {
+    width: 750px;
+    margin: 0 auto;
+    position: relative
+}
+
+.slider_carousel img {
+    display: block;
+    margin: 0 auto
+}
+
+.slider .slick-prev {
+    position: absolute;
+    left: -66px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: #fff
+}
+
+.slider .slick-prev img {
+    width: 30px;
+    height: 45px
+}
+
+.slider .slick-next {
+    position: absolute;
+    top: 50%;
+    right: -66px;
+    transform: translateY(-50%);
+    border: none;
+    background-color: #fff
+}
+
+.slider .slick-next img {
+    width: 30px;
+    height: 45px
+}
+
+.catalog {
+    height: auto;
+    padding-top: 100px
+}
+
+.catalog_header {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.catalog_tabs {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+.catalog_tab {
+    width: 220px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    border: 2px solid #d3d3d3;
+    color: grey;
+    font-size: 18px;
+    text-transform: uppercase;
+    transform: skewX(-25deg);
+    cursor: pointer;
+    transition: all .5s ease
+}
+
+.catalog_tab div {
+    transform: skewX(25deg)
+}
+
+.catalog_tab:hover {
+    background-color: #c70101;
+    color: #fff;
+    border: none;
+    box-shadow: 3px 3px 15px #c70101
+}
+
+.catalog_tab_active {
+    background-color: #c70101;
+    color: #fff
+}
+
+.catalog_content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: none
+}
+
+.catalog_content_active {
+    display: flex
+}
+
+.catalog_item {
+    width: 300px;
+    min-height: 440px;
+    border: 2px solid #d3d3d3;
+    padding: 20px 20px 25px 20px;
+    margin: 0 10px 20px 10px
+}
+
+.catalog_item_img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 185px
+}
+
+.catalog_item_subheader {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.catalog_item_descrb {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400
+}
+
+.catalog_item_link {
+    display: block;
+    margin: 15px;
+    text-align: center;
+    color: #c70101;
+    font-size: 14px;
+    font-weight: 550
+}
+
+.catalog_item_link:hover {
+    color: #c70101;
+    text-decoration: underline
+}
+
+.catalog_item_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.catalog_item_footer .prices_old {
+    font-size: 14px;
+    text-decoration: line-through
+}
+
+.catalog_item_footer .prices_new {
+    font-size: 20px;
+    font-weight: 600
+}
+
+.catalog_item_footer .btn {
+    color: #fff;
+    text-transform: uppercase;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #c70101;
+    border: none;
+    border-radius: 5px;
+    transition: all .5s;
+    width: 130px;
+    height: 40px;
+    font-size: 14px
+}
+
+.catalog_item_footer .btn:hover {
+    background-color: red
+}
+
+.comment {
+    min-height: 950px;
+    padding-top: 80px;
+    padding-bottom: 65px
+}
+
+.comment_header {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.comment_content {
+    display: flex;
+    align-items: center;
+    margin-top: 60px
+}
+
+.comment_content_img {
+    margin-right: 60px;
+    width: 185px;
+    height: 185px
+}
+
+.comment_content_descrb {
+    font-size: 14px
+}
+
+.comment_content_descrb span {
+    font-size: 14px;
+    color: grey
+}
+
+.comment_content_person {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.comment_line {
+    margin-top: 50px;
+    margin-bottom: 0;
+    border-bottom: none;
+    opacity: .3
+}
+
+.footer {
+    position: relative;
+    height: 630px
+}
+
+.footer_info {
+    position: absolute;
+    background-color: #c70101;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 50px 65px 60px 65px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700
+}
+
+.footer_phone {
+    color: #fff
+}
+
+.footer_phone:hover {
+    color: #fff
+}
+
+.footer_social {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px
+}
+
+.footer_social_item {
+    display: flex;
+    justify-content: center;
+    margin: 0 15px;
+    transition: all .5s ease
+}
+
+.footer_social_item:hover {
+    transform: rotate(360deg)
+}
+
+.overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, .56);
+    z-index: 1
+}
+
+.overlay .modal {
+    width: 380px;
+    min-height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f2f2f2;
+    padding: 38px 38px;
+    z-index: 2
+}
+
+.overlay .modal_mini {
+    min-height: 140px
+}
+
+.overlay .modal .consultation_form {
+    margin-top: 20px
+}
+
+.overlay .modal_header {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700
+}
+
+.overlay .modal_subheader {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500
+}
+
+.overlay .modal_close {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    font-size: 40px;
+    line-height: 20px;
+    color: #c70101;
+    cursor: pointer
+}
+
+.overlay #consultation, .overlay #order, .overlay #thanks {
+    display: none
+}
+
+@media (max-width:1200px) {
+    .promo .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+    .promo_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .advantage_icons {
+        display: flex;
+        justify-content: space-around
+    }
+    .consultation_title {
+        font-size: 32px
+    }
+    .consultation_descrb {
+        margin-top: 55px
+    }
+}
+
+@media (max-width:992px) {
+    .promo .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+    .promo .header_official {
+        display: none
+    }
+    .promo_header {
+        font-size: 35px
+    }
+    .promo_subheader {
+        font-size: 20px
+    }
+    .advantage_icons {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 60px
+    }
+    .advantage_icon {
+        width: 220px
+    }
+    .consultation_title {
+        font-size: 24px;
+        text-align: center
+    }
+    .consultation_descrb {
+        text-align: center;
+        margin-top: 35px
+    }
+    .consultation_form {
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto
+    }
+    .comment_content {
+        display: flex;
+        align-items: center;
+        margin-top: 40px
+    }
+    .comment_content_img {
+        margin-right: 30px;
+        margin-left: 30px
+    }
+    .comment_content_descrb {
+        width: 65%
+    }
+    .footer_info {
+        padding: 40px 25px 30px 25px
+    }
+    .modal {
+        min-height: 380px
+    }
+}
+
+@media (max-width:768px) {
+    .promo_logo {
+        width: 200px
+    }
+    .promo .header_phone {
+        font-size: 15px
+    }
+    .promo .header .button {
+        width: 125px;
+        font-size: 11px
+    }
+    .promo_icons {
+        width: 400px;
+        margin-top: 50px
+    }
+    .promo_wrapper {
+        margin-top: 50px
+    }
+    .promo_wrapper .button_main {
+        width: 220px;
+        height: 35px;
+        margin-top: 50px;
+        font-size: 14px
+    }
+    .promo_link {
+        font-size: 14px
+    }
+    .promo_header {
+        font-size: 27px
+    }
+    .promo_subheader {
+        font-size: 15px
+    }
+    .advantage_header {
+        font-size: 22px;
+        text-align: center
+    }
+    .advantage_icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px
+    }
+    .advantage_icon {
+        margin-top: 20px
+    }
+    .advantage_icon img {
+        width: 55px
+    }
+    .advantage_icon span {
+        margin-top: 0;
+        margin-bottom: 10px
+    }
+    .advantage_icon p {
+        margin-bottom: 0
+    }
+    .consultation_title {
+        display: none
+    }
+    .consultation_descrb {
+        text-align: center;
+        margin-top: 25px
+    }
+    .consultation_form {
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto;
+        width: 250px
+    }
+    .consultation_form input {
+        height: 40px
+    }
+    .consultation .button {
+        width: 250px;
+        font-size: 14px;
+        height: 43px
+    }
+    .catalog_header {
+        font-size: 22px
+    }
+    .catalog_tabs {
+        margin-top: 30px
+    }
+    .catalog_tab {
+        width: 160px;
+        height: 40px
+    }
+    .catalog_tab div {
+        font-size: 14px;
+        font-weight: 700
+    }
+    .catalog_content {
+        margin-top: 30px
+    }
+    .catalog_item {
+        min-height: 0;
+        padding: 10px 10px 10px 10px
+    }
+    .catalog_item_img {
+        height: 150px
+    }
+    .catalog_item_subheader {
+        margin-top: 15px
+    }
+    .catalog_item_link {
+        margin: 8px
+    }
+    .comment_header {
+        font-size: 22px
+    }
+    .comment_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px
+    }
+    .comment_content_img {
+        margin: 0 auto
+    }
+    .comment_content_descrb {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px 0 20px;
+        text-align: center
+    }
+    .comment_line {
+        margin: 20px 0 20px 0;
+        border-bottom: none;
+        opacity: .3
+    }
+    .modal .button {
+        width: 100%
+    }
+}
+
+@media (max-width:576px) {
+    .promo {
+        min-height: 550px
+    }
+    .promo .header {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .promo .header_contacts {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    .promo_logo {
+        display: none
+    }
+    .promo_header {
+        font-size: 20px
+    }
+    .promo_subheader {
+        font-size: 13px
+    }
+    .promo_icons {
+        width: 300px
+    }
+    .promo_icon img {
+        width: 35px
+    }
+    .promo_icon span {
+        font-size: 11px
+    }
+    .promo .button {
+        width: 120px;
+        height: 38px;
+        font-size: 11px
+    }
+    .promo_link {
+        font-size: 11px
+    }
+    .promo_link a {
+        font-size: 12px
+    }
+    .advantage_header {
+        font-size: 20px
+    }
+    .advantage_icon {
+        margin-top: 10px
+    }
+    .advantage_icon img {
+        width: 45px
+    }
+    .advantage_icon p {
+        font-size: 12px
+    }
+    .consultation_title {
+        display: none
+    }
+    .consultation_descrb {
+        text-align: center;
+        font-size: 16px
+    }
+    .consultation_form {
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto;
+        width: 100%
+    }
+    .consultation_form input {
+        height: 30px
+    }
+    .consultation .button {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+        height: 43px
+    }
+    .catalog_tabs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+    .catalog_tab {
+        margin: 5px
+    }
+    .comment_content_descrb {
+        width: 100%
+    }
+    .footer_info {
+        width: 300px;
+        height: 210px;
+        padding: 25px 35px 30px 35px
+    }
+    .footer_info_phone {
+        margin-top: 15px
+    }
+    .overlay .modal {
+        width: 250px;
+        min-height: 260px;
+        padding: 15px 15px
+    }
+    .overlay .modal .consultation_form {
+        margin-top: 10px;
+        margin-bottom: 0
+    }
+    .overlay .modal .consultation_form input {
+        padding: 5px;
+        margin-bottom: 10px
+    }
+    .overlay .modal_header {
+        font-size: 14px
+    }
+    .overlay .modal_subheader {
+        font-size: 12px
+    }
+    .overlay .modal_close {
+        position: absolute;
+        right: -25px;
+        top: 0
+    }
+    .overlay .modal .button {
+        height: 35px;
+        font-size: 13px
+    }
+}
