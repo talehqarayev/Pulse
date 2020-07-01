@@ -45,6 +45,6 @@ $(document).ready(function(){
 
     // Настройка ввода номероа телефона
 
-    $("input[name=phone]").mask("+999(99) 999-99-99");
+    $("input[name=phone]").mask("+7(999) 999-99-99");
 
   });
