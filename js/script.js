@@ -26,6 +26,13 @@ $(document).ready(function(){
     $(".overlay, #consultation, #order, #thanks").fadeOut("fast");
     });
 
+    $(".overlay").on("click", function() {
+
+        if ($(event.target).closest("#consultation, #order, #thanks").length) return;
+        $(".overlay").fadeOut("slow");
+        event.stopPropagation();
+        });
+
  
     $(".btn").each(function(i) {
         $(this).on("click", function() {
