@@ -70,7 +70,7 @@ $(document).ready(function(){
         return false;
     });
 
-      // Scroll pageup
+    // Scroll pageup
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1600) {
