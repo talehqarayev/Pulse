@@ -25,13 +25,14 @@ $(document).ready(function(){
 
     $(".overlay, #consultation, #order, #thanks").fadeOut("fast");
     });
+    
 
     $(".overlay").on("click", function() {
 
-        if ($(event.target).closest("#consultation, #order, #thanks").length) return;
-        $(".overlay").fadeOut("slow");
-        event.stopPropagation();
-        });
+    if ($(event.target).closest("#consultation, #order, #thanks").length) return;
+    $(".overlay").fadeOut("slow");
+    event.stopPropagation();
+    });
 
  
     $(".btn").each(function(i) {
@@ -47,6 +48,9 @@ $(document).ready(function(){
 
     $("input[name=phone]").mask("+7(999) 999-99-99");
 
+
+    // Отправление данный с сайта на ПОЧТУ
+    
     $("form").submit(function(e) {
 
         e.preventDefault();
@@ -58,9 +62,8 @@ $(document).ready(function(){
         }).done(function() {
 
             $(this).find("input").val("");
-
-
-
+            $("#consultation, #order").fadeOut();
+            $(".overlay, #thanks").fadeIn("slow");
             $("form").trigger("reset");
         });
         
