@@ -69,4 +69,25 @@ $(document).ready(function(){
         
         return false;
     });
+
+      // Scroll pageup
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 1600) {
+            $(".pageup").fadeIn("slow");
+        } 
+        else {
+            $(".pageup").fadeOut();
+             }
+    });
+
+     // Чтобы крутилась до самого ваерха сайта ПЛАВНО, а не прямой переход
+
+    $("a[href^='#']").click(function(){
+        const _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+        });
+
+    
   });
