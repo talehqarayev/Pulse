@@ -27,12 +27,12 @@ $(document).ready(function(){
     });
     
 
-    $(".overlay").on("click", function() {
+    // $(".overlay").on("click", function() {    //Закрывается модальное окно при нажатии  В НЕ пределах его
 
-    if ($(event.target).closest("#consultation, #order, #thanks").length) return;
-    $(".overlay").fadeOut("slow");
-    event.stopPropagation();
-    });
+    // if ($(event.target).closest("#consultation, #order, #thanks").length) return;
+    // $(".overlay").fadeOut("slow");
+    // event.stopPropagation();
+    // });
 
  
     $(".btn").each(function(i) {
