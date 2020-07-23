@@ -12,11 +12,11 @@ gulp.task('server', function() {
 
     browserSync({
         server: {
-            baseDir: "pulse"
+            baseDir: "src"
         }
     });
 
-    gulp.watch("pulse/*.html").on('change', browserSync.reload);
+    gulp.watch("src/*.html").on('change', browserSync.reload);
 });
 
 gulp.task('styles', function() {
@@ -29,17 +29,17 @@ gulp.task('styles', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task("images", function () {
-    return gulp.src("src/img/**/*")
-        .pipe(imagemin())
+// gulp.task("images", function () {
+//     return gulp.src("src/img/**/*")
+//         .pipe(imagemin())
 
-})
+// })
 
-gulp.task("icons", function () {
-    return gulp.src("src/icons/**/*")
-        .pipe(imagemin())
+// gulp.task("icons", function () {
+//     return gulp.src("src/icons/**/*")
+//         .pipe(imagemin())
 
-})
+// })
 
 gulp.task('watch', function() {
     gulp.watch("src/sass/**/*.+(scss|sass)", gulp.parallel('styles'));
