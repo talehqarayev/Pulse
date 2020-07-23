@@ -29,17 +29,17 @@ gulp.task('styles', function() {
         .pipe(browserSync.stream());
 });
 
-// gulp.task("images", function () {
-//     return gulp.src("src/img/**/*")
-//         .pipe(imagemin())
+gulp.task("images", function () {
+    return gulp.src("src/img/**/*")
+        .pipe(imagemin())
 
-// })
+})
 
-// gulp.task("icons", function () {
-//     return gulp.src("src/icons/**/*")
-//         .pipe(imagemin())
+gulp.task("icons", function () {
+    return gulp.src("src/icons/**/*")
+        .pipe(imagemin())
 
-// })
+})
 
 gulp.task('watch', function() {
     gulp.watch("src/sass/**/*.+(scss|sass)", gulp.parallel('styles'));
