@@ -12,11 +12,11 @@ gulp.task('server', function() {
 
     browserSync({
         server: {
-            baseDir: "src"
+            baseDir: "pulse"
         }
     });
 
-    gulp.watch("src/*.html").on('change', browserSync.reload);
+    gulp.watch("pulse/*.html").on('change', browserSync.reload);
 });
 
 gulp.task('styles', function() {
