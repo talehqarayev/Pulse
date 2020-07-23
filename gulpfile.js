@@ -16,7 +16,7 @@ gulp.task('server', function() {
         }
     });
 
-    gulp.watch("pulse/*.html").on('change', browserSync.reload);
+    gulp.watch("src/*.html").on('change', browserSync.reload);
 });
 
 gulp.task('styles', function() {
@@ -31,6 +31,12 @@ gulp.task('styles', function() {
 
 gulp.task("images", function () {
     return gulp.src("src/img/**/*")
+        .pipe(imagemin())
+
+})
+
+gulp.task("icons", function () {
+    return gulp.src("src/icons/**/*")
         .pipe(imagemin())
 
 })
