@@ -27,7 +27,7 @@ $(document).ready(function(){
     });
     
 
-    // $(".overlay").on("click", function() {    //Закрывается модальное окно при нажатии  В НЕ пределах его
+    // $(".overlay").on("click", function() {    //Закрывается модальное окно при нажатии  ВНЕ пределах его
 
     // if ($(event.target).closest("#consultation, #order, #thanks").length) return;
     // $(".overlay").fadeOut("slow");
