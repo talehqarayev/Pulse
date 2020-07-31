@@ -1,12 +1,4 @@
 $(document).ready(function(){
-    $(".slider_carousel").slick({
-        speed: 1200,
-        adaptiveHeight: true,
-        prevArrow: '<button type="button" class="slick-prev"> <img src="icons/arrowtoleft.png"> </button>',
-        nextArrow: '<button type="button" class="slick-next"> <img src="icons/arrowtoright.png"> </button>',
-        autoplay: false,
-        autoplaySpeed: 3000
-    });
 
     $('ul.catalog_tabs').on('click', 'li:not(.catalog_tab_active)', function() {
         $(this)

@@ -1,35 +1,14 @@
-
 .slider
-    display: none
-    padding: 95px 0
-    
+    padding-top: 90px
+    overflow: hidden
+    width: 50%
+    margin: 0 auto
     &_carousel
-        width: 750px
-        margin: 0 auto
+        width: 300%
         position: relative
+        left: 0
+        animation: slider  25s infinite
         img
-            display: block
-            margin: 0 auto
-
-
-
-    .slick-prev
-            position: absolute
-            left: -66px
-            top: 50%
-            transform: translateY(-50%)
-            border: none
-            background-color: white
-            img
-                width: 30px
-                height: 45px
-    .slick-next
-            position: absolute
-            top: 50%
-            right: -66px
-            transform: translateY(-50%)
-            border: none
-            background-color: white
-            img
-                width: 30px
-                height: 45px
+            width: 33.33%
+            float: left
+            height: auto
